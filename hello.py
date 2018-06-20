@@ -1,7 +1,7 @@
 from flask import Flask
 
-app = Flask(__name__)
+myapp = Flask(__name__)
 
-@app.route("/")
+@myapp.route("/")
 def hello():
-    return "Hello World"
+    return "Welcome to my Heroku"
